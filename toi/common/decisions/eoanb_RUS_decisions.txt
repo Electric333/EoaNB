@@ -56,29 +56,10 @@ eoanb_category_military = {
 		days_mission_timeout = 720
 		
 		highlight_states = {
-			if = {
-				limit = { 
-					ROOT = {
-						TAG = RUS 
-					}
-				}
-				STATE = 195	
-			}
-			else_if = {
-				limit = { 
-					ROOT = {
-						TAG = ENG 
-					}
-				}
-				STATE = 952	
-			}
-			else_if = {
-				limit = { 
-					ROOT = {
-						TAG = TSH 
-					}
-				}
-				STATE = 952	
+			highlight_state_targets = {
+				STATE = 195
+				STATE = 952
+				STATE = 952
 			}
 		}
 		

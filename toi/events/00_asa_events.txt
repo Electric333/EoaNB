@@ -2260,7 +2260,7 @@ country_event = {
 
 	option = {
 		name = asa_imperial_palace.1.a
-		set_capital = 1385
+		set_capital = { state = 1385 }
 		add_ideas = ASA_The_Imperial_Palace_1
 	}
 	option = {
@@ -4260,7 +4260,7 @@ country_event = { # Issue Of McClellan
 			create_country_leader = {
 				name = "George W. Cass"
 				desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-				picture = "Portrait_ASA_George_Washington_Cass.dds"
+				picture = "Portrait_ASA_George_Washington_Cass.png"
 				expire = "1888.3.21"
 				ideology = federal
 				traits = {

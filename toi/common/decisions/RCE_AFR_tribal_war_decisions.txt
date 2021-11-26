@@ -2663,118 +2663,25 @@ afr_rrp_african_expeditions={
 			}
 		}
 		highlight_states = { #the size of this is entirely paradoxes fault
-			#Kenya
-			if={
-				limit ={
-					FROM ={
-						OR = {
-							# tag = MER
-							tag = MMA
-						}
-					}
-				}
+			highlight_state_targets = {
 				state = 911
-			}
-			else_if={
-				limit ={
-					FROM ={tag = OGD}
-				}
+
 				state = 912
-			}
-			else_if={
-				limit ={
-					FROM ={tag = RDL}
-				}
 				state = 914
-			}
-			else_if={
-				limit ={
-					FROM ={tag = KKY}
-				}
 				state = 547
-			}
-			else_if={
-				limit ={
-					FROM ={tag = BOR}
-				}
 				state = 913
-			}
-			else_if={
-				limit ={
-					FROM ={tag = TKN}
-				}
 				state = 915
-			}
-			else_if={
-				limit ={
-					FROM ={tag = LUO}
-				}
 				state = 910
-			}
-			else_if={
-				limit ={
-					FROM ={tag = MAA}
-					OR={
-						ROOT={tag = MOM}
-						ROOT={tag = OMA}
-					}
-				}
 				state = 906
-			}
-			#Tanzinia
-			else_if={
-				limit ={
-					FROM ={tag = MAA}
-					ROOT={tag = ZAN}
-				}
 				state = 905
-			}
-			else_if={
-				limit ={
-					FROM ={tag = NYW}
-				}
 				state = 546
-			}
-			else_if={
-				limit ={
-					FROM ={tag = UJJ}
-				}
 				state = 908
-			}
-			else_if={
-				limit ={
-					FROM ={tag = KND}
-				}
 				state = 929
-			}
-			else_if={
-				limit ={
-					FROM ={tag = SUK}
-				}
 				state = 907
-			}
-			else_if={
-				limit ={
-					FROM ={tag = KRG}
-				}
 				state = 896
-			}
-			else_if={
-				limit ={
-					FROM ={tag = LGR}
-				}
 				state = 904
-			}
-			else_if={
-				limit ={
-					FROM ={tag = WSG}
-				}
 				state = 269
 			}
-			else={
-				state = 906
-			}
-			#is_in_kenya = yes
 		}
 		#cost = 10
 		fire_only_once = yes
